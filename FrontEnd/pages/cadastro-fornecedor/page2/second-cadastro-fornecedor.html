@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de fornecedor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../assets/global/global.css">
+</head>
+<body>
+    <header>
+        <div class="buttons-header">
+            <a href="../cadastro-fornecedor.html"><img src="../../../assets/icons/retroceder.svg" alt="Retroceder"></a>
+            <a href="../../../login.html"><img src="../../../assets/icons/prosseguir.svg" alt="Logout"></a>
+        </div>
+    </header>
+    <div class="tittle">
+        <h1>Formulário</h1>
+        <h2>Cadastro de Fornecedor:</h2>
+    </div>
+    <form>
+        <!--QUESTÃO "ÁREA DE ATUAÇÃO" COM MULTILHAS ESCOLHAS-->
+        <div class="question">
+            <label for="Área de Atuação">Área de Atuação:</label>
+
+            <div class="checkbox-container">
+                <input type="checkbox">
+                <label for="Produtos">Produtos</label>
+            </div>
+            
+            <div class="checkbox-container">
+                <input type="checkbox">
+                <label for="Serviços">Serviços</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <label for="Descrição de Fornecimento">Descrição de Fornecimento:</label>
+            <input type="text">
+        </div>
+
+        <!--QUESTÃO "FORNECIMENTO" COM MULTILHAS ESCOLHAS-->
+        <div class="question">
+            <label for="Fornecimento">Fornecimento:</label>
+
+            <div class="checkbox-container">
+                <input type="checkbox">
+                <label for="Interno">Interno</label>
+            </div>
+            
+            <div class="checkbox-container">
+                <input type="checkbox">
+                <label for="Externo">Externo</label>
+            </div>
+        </div>
+
+        <!--QUESTÇÕES SOBRE DADOS BANCÁRIOS-->
+        <div class="question" id="dados-bancarios">
+            <label for="Dados Bancários">Dados Bancários</label>
+            <label class="label-reduced" for="Banco">Banco:</label>
+            <input type="text">
+            <div class="container-question">
+                <div class="question-left">
+                    <label class="label-reduced" for="Agência">Agência:</label>
+                    <input type="number">
+                </div>
+                <div class="question-right">
+                    <label class="label-reduced" for="Conta Corrente">Conta Corrente:</label>
+                    <input type="number">
+                </div>
+            </div>
+        </div>
+        <input class="button-green" type="submit" value="Salvar">
+        <input class="button-red" type="submit" value="Cancelar">
+    </form>
+</body>
+</html>

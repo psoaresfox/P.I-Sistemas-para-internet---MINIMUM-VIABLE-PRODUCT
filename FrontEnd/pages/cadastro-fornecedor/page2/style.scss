@@ -1,0 +1,22 @@
+@import "../../../partials/responsive";
+@import "../../../partials/buttons_navigation";
+@import "../../../partials/header.buttons";
+@import "../../../partials/forms";
+@import "../../../partials/tittle-forms";
+@import "../../../partials/input_check";
+@import "../../../partials/buttons_end_forms";
+
+.question-left, .question-right {
+    display: flex;
+    flex-direction: column;    
+    width: 46%;
+}
+
+.container-question {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dados-bancarios {
+    padding-bottom: 20px;
+}

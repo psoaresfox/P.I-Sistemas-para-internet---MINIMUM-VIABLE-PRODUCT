@@ -1,0 +1,26 @@
+@import "../../../partials/responsive";
+@import "../../../partials/header.buttons";
+@import "../../../partials/forms";
+@import "../../../partials/buttons_navigation";
+@import "../../../partials/tittle-forms";
+@import "../../../partials/colors";
+@import "./../../../partials/buttons_end_forms";
+@import "../../../partials/input_check";
+
+#question-periodo-situacao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 7%;
+}
+
+@media (min-width: 1000px) {
+    #question-periodo-situacao {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 3rem 0 3rem 0;
+    }
+}

@@ -1,0 +1,27 @@
+@import "./partials/responsive";
+@import "./partials/tittle";
+@import "./partials/buttons_navigation";
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    margin: 15px 0 15px 0;
+}
+
+.button-blue {
+    margin: 42px 0 35px 0;
+}
+
+.links {
+    width: 85%;
+    @import url(modules/home.scss);
+}
+
+@media (min-width: 1000px) {
+    #button-enviar {
+        width: 35%;
+        margin: 50px 0 50px 0;
+    }
+}

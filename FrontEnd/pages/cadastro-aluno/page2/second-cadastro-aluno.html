@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro aluno</title>
+    <link rel="stylesheet" href="../../../assets/global/global.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="buttons-header">
+                <a href="../cadastro-aluno.html"><img src="../../../assets/icons/retroceder.svg" alt="Retroceder"></a>
+                <a href="../../../login.html"><img src="../../../assets/icons/prosseguir.svg" alt="Logout"></a>
+            </div>
+        </header>
+        <section>
+            <div class="tittle">
+                <h1>Formulário</h1>
+                <h2>Cadastro de Aluno:</h2>
+            </div>
+            <form>
+                <div class="question">
+                    <label for="Matrícula">Código de Matrícula:</label>
+                    <input type="number">
+                </div>
+                <div class="question">
+                    <label for="Curso">Curso:</label>
+                    <input type="text">
+                </div>
+                <div class="question">
+                    <label for="Semestre/ Ano">Semestre/ Ano:</label>
+                    <input type="number">
+                </div>
+
+                <!--QUESTÃO "PERÍODO" COM MULTILHAS ESCOLHAS-->
+                <div id="question-periodo-situacao">
+                    <div class="question">
+                        <label for="Período">Período:</label>
+                        
+                        <div class="checkbox-container">
+                            <input type="checkbox">
+                            <label for="Matutino">Matutino</label>
+                        </div>
+                        
+                        <div class="checkbox-container">
+                            <input type="checkbox">
+                            <label for="Vespertino">Vespertino</label>
+                        </div>
+                        
+                        <div class="checkbox-container">
+                            <input type="checkbox">
+                            <label for="Noturno">Noturno</label>
+                        </div>
+                    </div>
+
+                <!--QUESTÃO "SITUAÇÃO" COM MULTILHAS ESCOLHAS-->
+                    <div class="question">
+                        <label for="Situação">Situação:</label>
+                        
+                        <div class="checkbox-container">
+                            <input type="checkbox">
+                            <label for="Ativo">Ativo</label>
+                        </div>
+                        
+                        <div class="checkbox-container">
+                            <input type="checkbox">
+                            <label for="Formado">Formado</label>
+                        </div>
+                        
+                        <div class="checkbox-container">
+                            <input type="checkbox">
+                            <label for="Trancado">Trancado</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="buttons-finish">
+                    <input class="button-green" type="submit" value="Salvar">
+                    <input class="button-red" type="submit" value="Cancelar">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

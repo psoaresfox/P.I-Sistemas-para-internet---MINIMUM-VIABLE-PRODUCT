@@ -1,0 +1,18 @@
+@import "../partials/colors";
+
+.button-blue {
+    background-color: $background-button-blue;
+}
+
+.button-green {
+    background-color: $background-button-green;
+}
+
+.button-red {
+    background-color: $background-button-red;
+}
+
+.button-blue, .button-green,.button-red {
+    font-size: 18px;
+    width: 85%;
+}

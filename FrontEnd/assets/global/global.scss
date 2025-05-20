@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+@import "../../partials/colors";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: $color-white;
+}
+
+body {
+    background-image: url(../img/background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Sanchez", serif;
+}
+
+@media (min-width: 1000px) {
+    body {
+        background-image: url(../img/background-desktop.svg);
+    }
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: normal;
+    
+}
+
+
+label {
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+input {
+    color: $color-black;
+    padding: 15px;
+
+    outline: none;
+
+    font-size: 1rem;
+}
+
+input[type="submit"]  {
+    color: $color-white;
+}
+
+input, .buttons a {
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+}
+
+form {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7vw;
+    margin: 0;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 85%;
+}
+
+
+/*Buttons do site*/
+/*-------------------------------------------*/
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 8.5vw;
+
+    padding-top: 16vw;
+}
+
+.buttons a {
+    text-decoration: none;
+    display: flex;
+
+    /*Alinhando o texto no meio do link*/
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    font-size: 14px;
+}
+
+/*RESPONSIVIDADE*/
+
+@media (min-width: 1000px) {
+    .question {
+        width: 100%;
+    }
+}
