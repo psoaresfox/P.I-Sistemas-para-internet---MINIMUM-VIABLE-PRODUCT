@@ -8,7 +8,7 @@
 
 ### ✅ Integrantes do Grupo:
 * Pedro Henrique de Oliveira Soares 
-
+* Leonardo Henrique Maciel Ferreira
 ### ✅ Projeto - 2ª Entrega:
 #### Protótipo de Interface (desktop e mobile) para Sistema de Gestão de Cadastro Escolar, utilizando a ferramenta Figma.
 Contêm as seguintes jornadas: 
